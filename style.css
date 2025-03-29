@@ -97,6 +97,18 @@ body {
   margin-top: 20px;
 }
 
+.taklifnoma__play {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.taklifnoma__music {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .taklifnoma_main {
     background-image: url("../wedding.jpg");
@@ -113,5 +125,10 @@ body {
     height: 100%;
     padding: 20px;
     border-radius: 10px;
+  }
+  .taklifnoma__play {
+    position: fixed;
+    width: 100px;
+    top: 0;
   }
 }
