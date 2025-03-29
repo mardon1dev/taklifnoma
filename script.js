@@ -25,3 +25,5 @@ document.addEventListener("DOMContentLoaded", function () {
     playingGif.style.display = "none";
   });
 });
+
+
